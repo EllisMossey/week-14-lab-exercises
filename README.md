@@ -31,7 +31,21 @@ hello greeting depending on the language you pass in the url
     1. [ ] It must lint
     1. [ ] It must check for known security vulns in dependencies
     1. [ ] It must run unit tests for new languages
-1. **Stretch goal** Deploy your application to AWS
-    1. [ ] Setup CI steps
-    1. [ ] Setup CD deployment using Cloudformation
-    1. [ ] Make a change and have it re-deploy
+1. Add secrets scanning (`git-secrets`? `talisman`?)
+
+## Session 15 todo
+
+- [ ] Create VPC: 10.0.0.0/22
+- [ ] Get Github actions to deploy your IaC
+
+- [ ] Create Pub subnets:
+  [ ]   - A: 10.0.0.0/24
+  [ ]   - B: 10.0.1.0/24
+- [ ] Create Pvt Subnets:
+  [ ]   - A: 10.0.2.0/24
+- [ ] Create IGW
+- [ ] Create Public Route Tables
+- [ ] Create NAT gateway
+- [ ] Create Private Route Table
+
+![target AWS arch](session-15-aws-targer-arch.png)
