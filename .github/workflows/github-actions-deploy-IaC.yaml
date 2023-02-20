@@ -18,6 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: cd ..
       - run: cd ..
-      - run: cd cloudformation
+      - run: pwd
+      - run: cd cloudformation/
       - run: pwd
 
